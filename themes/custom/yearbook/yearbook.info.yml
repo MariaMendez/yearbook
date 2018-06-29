@@ -1,0 +1,11 @@
+name: Yearbook theme
+type: theme
+description: A theme for our Yearbookcore 
+core: 8.x
+base theme: stable
+regions:
+  header: Header
+  highlighted: Highlighted
+  content: Content
+libraries:
+  - yearbook/global-styling
